@@ -1,0 +1,49 @@
+li ,li button{
+    font-size: 13px !important;
+}
+p{  
+    z-index: -1;
+    left: 0;
+    top: 40px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.hover{
+    cursor: pointer;
+}
+.hover:hover{
+    background-color: rgb(220, 217, 217) !important;
+}
+.hover:hover  p{
+    z-index: 1;
+    opacity: 100 !important;
+    top: 35px;
+}
+
+.buttom-nav{
+    background-color: cadetblue !important;
+}
+.buttom-nav > ul li{
+    font-size: 14px !important;
+    font-weight: bold;
+    color: white;
+}
+
+.text-hover:hover{
+    text-decoration: 2px solid underline !important;
+}
+.text-hover:focus{
+    text-decoration: 2px solid underline !important;
+}
+
+
+@media (max-width: 767.98px) { 
+    .offcanvas{
+        width: 85% !important;
+    }
+}
+@media (max-width: 992.98px) { 
+    .bg-maxlg-cadetblue{
+        background-color: cadetblue !important;
+    }
+}

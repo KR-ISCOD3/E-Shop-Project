@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Jacques+Francois+Shadow&display=swap');
+
+/* font for text */
+.font-txt{
+    font-family: "Reddit Sans Condensed", sans-serif !important;
+}
+.logo-font{
+    font-family: "Jacques Francois Shadow", serif;
+}
+.text-cadetblue{
+    color: cadetblue;
+}
+.bg-text-cade{
+    background-color: cadetblue !important;
+    color: white !important;
+}
+/* ------------ Scroll Bar ----------------- */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(72, 111, 112);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(231, 219, 219); /* Transparent background like Mac */
+    border-radius: 8px;
+}
